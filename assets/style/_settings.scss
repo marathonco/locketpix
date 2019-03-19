@@ -1,0 +1,75 @@
+// Viewports
+// mobile first
+$viewport-m: 32rem !default;
+$viewport-l: 48rem !default;
+$viewport-xl: 64rem !default;
+
+$m-up: "only screen and (min-width:#{$viewport-m})";
+$m-only: "only screen and (min-width:#{$viewport-m}) and (max-width:#{$viewport-l} - 1rem)";
+
+$l-up: "only screen and (min-width:#{$viewport-l})";
+$l-only: "only screen and (min-width:#{$viewport-l}) and (max-width:#{$viewport-xl} - 1rem)";
+
+$xl-up: "only screen and (min-width:#{$viewport-xl})";
+
+// Colors
+$brand1: #444444;
+$brand2: #aaaaaa;
+$brand3: #ffffff;
+$brand4: #444444;
+$brand5: #eeeeee;
+$brand6: #111111;
+
+// Colors
+$colors: (base: (primary: #053042, // navy
+selection: #35A987, // mint
+lines: #e0e0e0),
+
+text: (primary: $brand6, // navy
+secondary: $brand1, // brown
+contrast: #000000, // black
+heading: #ffffff, // white
+accent: $brand2, // tan
+ui: #000, // black
+link: #ffffff, // white
+linkHover: #ffffff), // white
+
+background: (primary: #ffffff,
+body: #cccccc,
+dark: #444444,
+light: #ffffff,
+),
+
+state: (muted: #888, // dark grey
+primary: $brand2, // red
+success: $brand2, // red
+warning: $brand2, // tan
+error: #999999, // grey
+disabled: #aaaaaa // light grey
+));
+
+// Fonts
+$font-size: 12px !default;
+$font-size-m: 15px !default;
+$font-size-l: 16px !default;
+
+$font-family-paragraph: 'Encode Sans Expanded',
+'Helvetica Neue',
+Helvetica,
+Roboto,
+Arial,
+sans-serif;
+
+$font-family-heading: $font-family-paragraph;
+
+$font-family-accent: $font-family-paragraph;
+
+// Style Defaults
+$border-radius-default: 2px;
+
+// Buttons
+$border-radius-button: $border-radius-default !default;
+$button-border: none;
+
+// Inputs
+$border-radius-input: $border-radius-default !default;

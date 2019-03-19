@@ -1,0 +1,52 @@
+[{
+  "label": "h15s",
+  "shape": "heart",
+  "size": "15mm",
+  "type": "standard"
+}, {
+  "label": "h19s",
+  "shape": "heart",
+  "size": "19mm",
+  "type": "standard"
+}, {
+  "label": "h23s",
+  "shape": "heart",
+  "size": "23mm",
+  "type": "standard"
+}, {
+  "label": "e21p",
+  "shape": "oval",
+  "size": "21mm",
+  "type": "premium"
+}, {
+  "label": "e23s",
+  "shape": "oval",
+  "size": "23mm",
+  "type": "standard"
+}, {
+  "label": "e234",
+  "shape": "oval",
+  "size": "23mm",
+  "type": "4-picture",
+  "options": [{
+    "label": "Outsides",
+    "value": "o"
+  }, {
+    "label": "Inside Left",
+    "value": "l"
+  }, {
+    "label": "Inside Right",
+    "value": "r"
+  }]
+
+}, {
+  "label": "r13s",
+  "shape": "circle",
+  "size": "13mm",
+  "type": "standard"
+}, {
+  "label": "r23s",
+  "shape": "circle",
+  "size": "23mm",
+  "type": "standard"
+}]
