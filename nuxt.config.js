@@ -64,7 +64,7 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/style-resources', 'nuxt-device-detect', 'nuxt-svg'],
+  modules: ['@nuxtjs/style-resources', 'nuxt-device-detect', 'nuxt-svg-loader'],
 
   /*
    ** Global Resources
