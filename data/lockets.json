@@ -18,6 +18,12 @@
     "type": "standard"
   },
   {
+  "label": "e17s",
+  "shape": "oval",
+  "size": "17mm",
+  "type": "standard"
+},
+  {
     "label": "e21p",
     "shape": "oval",
     "size": "21mm",
