@@ -68,6 +68,12 @@
     "type": "standard"
   },
   {
+  "label": "r19s",
+  "shape": "circle",
+  "size": "19mm",
+  "type": "standard"
+},
+  {
     "label": "r23s",
     "shape": "circle",
     "size": "23mm",
